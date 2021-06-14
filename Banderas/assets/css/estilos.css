@@ -1,21 +1,30 @@
 body{
-background-color: gray;
+background-color: rgb(243, 243, 243);
+
 }
 .nombre_alumno{
-color: rgb(247, 244, 244);
-font-size: 30px;
+color: rgb(36, 36, 36);
+font-size: 35px;
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+margin-bottom: 0px;
+}
+.titulo{
+color: rgb(36, 36, 36);
+font-size: 35px;
+font-family: 'Franklin Gothic regular', 'Arial Narrow', Arial, sans-serif ;
+margin: 0px;
 }
 .nombre_pais{
-color: rgb(247, 244, 244);
+color: rgb(36, 36, 36);
 font-size: 25px;
-font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+font-family: 'Franklin Gothic regular', 'Arial Narrow', Arial, sans-serif
 }
 .bandera {
-    background-color: white;
+    background-color: rgb(247, 244, 244);
     width: 500px;
     height: 300px;
     margin: 20px;
+    border: 1px solid rgb(36, 36, 36);
     position: relative;
 }
 .colombia1{
@@ -206,7 +215,7 @@ width: 500px;
 position: absolute;
 }
 .pakistan2{
-background-color: rgb(253, 253, 253);
+background-color: rgb(247, 244, 244);
 border-radius: 50%;
 width: 200px;
 height: 200px;
@@ -233,11 +242,11 @@ position: absolute;
 margin: 50px 0;
 position: absolute;
 display: block;
-color: rgb(255, 255, 255);
+color: rgb(247, 244, 244);
 width: 0px;
 height: 0px;
 border-right: 30px solid transparent;
-border-bottom: 20px solid rgb(255, 255, 255);
+border-bottom: 20px solid rgb(247, 244, 244);
 border-left: 30px solid transparent;
 transform: rotate(15deg);
 top: 40px;
@@ -245,7 +254,7 @@ left: 330px;
 }
 .pakistan6{
 position: absolute;
-border-bottom: 20px solid rgb(255, 255, 255);
+border-bottom: 20px solid rgb(247, 244, 244);
 border-left: 8px solid transparent;
 border-right: 8px solid transparent;
 height: 0;
@@ -260,19 +269,19 @@ transform: rotate(-18deg);
 position: absolute;
 width: 20%;
 display: block;
-color: rgb(250, 249, 249);
+color: rgb(247, 244, 244);
 top: 90px;
 left: 330px;
 width: 0px;
 height: 0px;
 border-right: 30px solid transparent;
-border-bottom: 20px solid rgb(255, 253, 253);
+border-bottom: 20px solid rgb(247, 244, 244);
 border-left: 30px solid transparent;
 transform: rotate(-50deg);
 content: '';   
 }
 .corea1{
-background-color: white;
+background-color: rgb(247, 244, 244);
 width: 500px;
 height: 300px;
 }
