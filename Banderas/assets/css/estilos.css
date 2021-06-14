@@ -1,0 +1,324 @@
+body{
+background-color: gray;
+}
+.nombre_alumno{
+color: rgb(247, 244, 244);
+font-size: 30px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.nombre_pais{
+color: rgb(247, 244, 244);
+font-size: 25px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.bandera {
+    background-color: white;
+    width: 500px;
+    height: 300px;
+    margin: 20px;
+    position: relative;
+}
+.colombia1{
+    background-color: rgba(247, 223, 8, 0.904);
+    height: 170px;
+
+}
+.colombia2{
+    background-color: rgb(3, 3, 145);
+    height: 65px;
+}
+.colombia3{
+    background-color: rgb(206, 34, 34);
+    height: 65px;
+}
+.mexico1{
+    background-color: rgb(35, 97, 49);
+    width: 170px;
+    height: 100%;
+    float: left;
+}
+.escudo_mexico{
+  width: 120px;  
+}
+.mexico2{
+    background-color: rgb(247, 244, 244);
+    width: 142px;
+    height: 200px;
+    float: left;
+    padding-left: 18px;
+    padding-top: 100px;
+
+}
+.mexico3{
+    background-color: rgb(206, 34, 34);
+    width: 170px;
+    height: 100%; 
+    float: left; 
+}
+.espana1{
+background-color: rgb(206, 34, 34);
+height: 75px;
+}
+.espana2{
+background-color: rgba(252, 214, 4, 0.904);
+height: 135px;
+width: 310px;
+padding-left: 190px;
+padding-top: 15px;
+}
+.escudo_espana{
+width: 110px;  
+}
+.espana3{
+background-color: rgb(206, 34, 34);
+height: 75px;
+}
+.japon1{
+background-color: rgb(206, 34, 34) ;
+border-radius: 50%;
+width: 150px;
+height: 150px;
+position: absolute;
+left: 170px;
+top: 75px;
+
+}
+.islandia1{
+background-color: rgb(45, 57, 160);
+width: 500px;
+height: 300px;
+position: absolute;
+}
+.islandia2{
+background-color: white;
+width: 500px;
+height: 60px;   
+position: absolute;
+left: 0px;
+top: 120px;
+}
+.islandia3{
+background-color: white;
+height: 300px;
+width: 60px;
+position: absolute;
+left: 150px;
+}
+.islandia4{
+background-color: rgb(206, 34, 34);
+width: 500px;
+height: 30px;
+position: absolute;
+top: 135px;
+}
+.islandia5{
+background-color: rgb(206, 34, 34);
+height: 300px;
+width: 30px;
+position: absolute;
+left: 165px;
+}
+.chile1{
+background-color: rgb(13, 31, 194);
+height: 150px;
+width: 150px;
+}
+.chile2{
+background-color: rgb(206, 34, 34);    
+height: 150px;
+width: 500px;
+}
+.chile3{
+margin: 50px 0;
+position: absolute;
+display: block;
+color: rgb(255, 255, 255);
+width: 0px;
+height: 0px;
+border-right: 30px solid transparent;
+border-bottom: 20px solid rgb(255, 255, 255);
+border-left: 30px solid transparent;
+transform: rotate(35deg);
+top: 10px;
+left: 45px;
+}
+.chile4{
+position: absolute;
+border-bottom: 20px solid rgb(255, 255, 255);
+border-left: 8px solid transparent;
+border-right: 8px solid transparent;
+height: 0;
+width: 0;
+top: 42px;
+left: 67px;
+display: block;
+content: '';
+transform: rotate(0deg);  
+}
+.chile5{
+position: absolute;
+width: 20%;
+display: block;
+color: rgb(250, 249, 249);
+top: 60px;
+left: 45px;
+width: 0px;
+height: 0px;
+border-right: 30px solid transparent;
+border-bottom: 20px solid rgb(255, 253, 253);
+border-left: 30px solid transparent;
+transform: rotate(-35deg);
+content: '';
+}
+.brasil1{
+background-color: green;
+height: 300px;
+width: 500px;
+position: absolute;
+}
+.brasil2{
+width: 225px; 
+height: 225px; 
+border: 3px solid rgba(247, 223, 8, 0.904); 
+background: rgba(247, 223, 8, 0.904);
+-webkit-transform: rotate(135deg) skew(15deg, 15deg);
+-moz-transform: rotate(135deg) skew(15deg, 15deg);
+-ms-transform: rotate(135deg) skew(15deg, 15deg);
+-o-transform: rotate(135deg) skew(15deg, 15deg);
+transform: rotate(135deg) skew(15deg, 15deg);
+position: absolute;
+left: 130px;
+top: 35px;
+}
+.brasil3{
+background-color: rgb(19, 19, 90);
+border-radius: 50%;
+width: 150px;
+height: 150px;
+position: absolute;
+left: 170px ;
+top: 75px;
+}
+.pakistan1{
+background-color: rgb(13, 77, 13) ;
+height:300px;
+width: 500px;
+position: absolute;
+}
+.pakistan2{
+background-color: rgb(253, 253, 253);
+border-radius: 50%;
+width: 200px;
+height: 200px;
+position: absolute;
+left: 220px ;
+top: 40px;
+}
+.pakistan3{
+background-color: rgb(13, 77, 13);
+border-radius: 50%;
+width: 200px;
+height: 200px;
+position: absolute;
+left: 250px ;
+top: 10px;
+}
+.pakistan4{
+background-color: rgb(247, 244, 244);
+height: 300px;
+width: 120px;
+position: absolute;
+}
+.pakistan5{
+margin: 50px 0;
+position: absolute;
+display: block;
+color: rgb(255, 255, 255);
+width: 0px;
+height: 0px;
+border-right: 30px solid transparent;
+border-bottom: 20px solid rgb(255, 255, 255);
+border-left: 30px solid transparent;
+transform: rotate(15deg);
+top: 40px;
+left: 330px;
+}
+.pakistan6{
+position: absolute;
+border-bottom: 20px solid rgb(255, 255, 255);
+border-left: 8px solid transparent;
+border-right: 8px solid transparent;
+height: 0;
+width: 0;
+top: 74px;
+left: 346px;
+display: block;
+content: '';
+transform: rotate(-18deg);
+}
+.pakistan7{
+position: absolute;
+width: 20%;
+display: block;
+color: rgb(250, 249, 249);
+top: 90px;
+left: 330px;
+width: 0px;
+height: 0px;
+border-right: 30px solid transparent;
+border-bottom: 20px solid rgb(255, 253, 253);
+border-left: 30px solid transparent;
+transform: rotate(-50deg);
+content: '';   
+}
+.corea1{
+background-color: white;
+width: 500px;
+height: 300px;
+}
+.trigrama{
+width: 90%;
+position: absolute;
+left: 20px;
+}
+.corea2{
+width: 150px; 
+height: 75px; 
+background: rgb(206, 34, 34);
+-moz-border-radius: 100px 100px 0 0;
+-webkit-border-radius: 100px 100px 0 0;
+border-radius: 100px 100px 0 0;
+position: absolute;
+left: 170px;
+top: 75px;
+}
+.corea3{
+width: 150px; 
+height: 75px; 
+background: rgb(45, 57, 160);
+-moz-border-radius: 100px 100px 0 0;
+-webkit-border-radius: 100px 100px 0 0;
+border-radius: 100px 100px 0 0;
+position: absolute;
+transform: rotate(180deg);
+left: 170px;
+top: 150px;
+}
+.corea4{
+background-color: rgb(206, 34, 34) ;
+border-radius: 50%;
+width: 75px;
+height: 75px;
+position: absolute;
+left: 170px;
+top: 110px;
+}
+.corea5{
+background-color: rgb(45, 57, 160);
+border-radius: 50%;
+width: 75px;
+height: 75px;
+position: absolute;
+left: 244px;
+top: 120px;
+}
