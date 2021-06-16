@@ -1,0 +1,75 @@
+div {
+ border: 1px black solid;   
+ padding: 3px;
+ box-sizing: border-box;
+}
+
+.envoltorio{
+    background-color: moccasin;
+padding: 20px;
+margin: 0px auto; 
+width: 80%;
+position: relative;
+}
+
+.envoltorio div{
+width: 200px;
+ height: 200px;
+ display: inline-block;
+
+}
+
+.cont_01 {
+    background-color: black;
+}
+
+.cont_02 {
+    background-color: blue;
+    position: ;
+    top: 60px;
+    left: 110px;
+}
+
+.cont_03 {
+    background-color: yellow;
+}
+
+.cont_04 {
+    background-color: yellow;
+    width: 600px !important;
+    display: block !important; 
+    
+}
+
+.bandera{
+    width: 400px;
+    height: 250px;
+    padding: 0px !important;
+}
+
+.bandera div{
+    padding: 0px !important;
+    margin: 0px !important;
+    border: none;
+    box-sizing: border-box;
+}
+.azul{
+    background-color: blue;
+    display: inline-block;
+width: 130px;
+height: 250px;
+}
+
+.rojo{
+    background-color: red;
+    display: inline-block;
+width: 133px;
+height: 250px;
+}
+
+.white{
+    background-color: white;
+    display: inline-block;
+    width: 130px;
+    height: 250px;
+}

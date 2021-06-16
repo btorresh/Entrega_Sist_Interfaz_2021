@@ -1,0 +1,40 @@
+.contenedor_00{
+    
+background-color: cornflowerblue;
+}
+
+
+.contenedor_01 {
+font-size: 15px ;
+width: 55%;
+background-color: brown;
+display: inline-block;
+}
+
+.contenedor_02 {
+font-size: 15px;
+width: 43%; 
+background-color: coral;
+display: inline-block;
+
+}
+
+img{
+width: 15%;
+    
+}
+
+.envoltorio_principal{
+    width: 70%;
+    padding: 18px;
+    padding-top: 20px;
+    border: 2px solid rgb(250, 250, 252);
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-top: -40px;}
+
+
+    .parrafo_final {
+        background-color: coral;
+        display: inline-block;}
