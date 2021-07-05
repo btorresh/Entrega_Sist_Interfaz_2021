@@ -1,0 +1,214 @@
+
+
+body{
+background-image: url("../images/fondo.png");}
+
+
+header {
+    width: 1332;
+    padding: 30px;
+    color: rgb(3, 3, 3);
+    text-align: center;
+    background: rgb(252, 217, 187);
+}    
+.titulo_encabezado{
+    font-family:'Lobster', cursive;
+    font-size: 100px;
+
+}
+ nav ul {
+    background:rgb(252, 217, 187);
+    text-align: center;
+    list-style: none;
+    overflow: hidden;
+  
+  }
+  
+  ul li {
+    display: inline-block;
+    padding: 20px;
+    transition: all ease-in-out 250ms;
+  }
+  
+  ul li:hover {
+    background:rgb(134, 3, 3);
+  }
+  
+  ul li a {
+    color: rgb(2, 2, 2);
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  .hide {
+    
+    font-size: 22px;
+    background:rgb(134, 3, 3);
+    color: white;
+    cursor: pointer;
+    display: none;
+  }
+  
+  @media (max-width: 768px) {
+    ul li {
+      width: 100%;
+      padding: 15px;
+      text-align: left;
+    }
+  
+    .hide {
+    padding-left: 20px;
+      display: block;
+      height: 25px;
+    }
+  
+    nav ul {
+    display: none;
+  }
+  }
+
+p{
+font-family: serif;
+color: white;
+text-align: left;
+display: block;
+
+}
+.envoltorio_principal{
+hyphens: auto;
+-webkit-hyphens: auto;
+-moz-hyphens: auto;
+}
+
+.miSlider img{
+    width: 100%;
+    max-height: 100vh;
+    height: inherit;
+    object-fit: cover;
+    vertical-align: top;
+    transition: 2s;
+}
+
+.barras{
+    background: rgb(252, 217, 187);
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom:15px;
+}
+
+.barra{
+cursor: pointer;
+height: 5px;
+width: 25px;
+margin: 0 10px;
+background: #473122;
+display: inline-block;
+margin-left: 3px;
+}
+
+.active{
+background-color: #e74c3c;
+}
+
+.fade{
+animation-name: fade;
+animation-duration: 1.5s;    
+}
+
+@keyframes fade {
+from {opacity: .4;}
+to{opacity:1;}
+}
+
+.carole_imagen{
+top: 50px;
+max-width: 100%;
+max-height: 100%;
+}
+
+.resena{
+margin-right: 30px;
+margin-left: 30px;
+margin-top: 50px;
+}
+
+.titulo_resena{
+font-family: 'Times New Roman', Times, serif;
+color: white;
+font-size: 27px;
+
+}
+.hijo1{
+ height: auto;
+display:block;
+overflow:auto;
+display: flex; 
+flex-flow: row wrap;
+justify-content: space-around;
+}
+
+.hijo1 div{
+width: 323px;
+text-align: center;
+margin: 30px;
+margin-top: 0px;
+flex: auto;
+    
+}
+.envoltorio_disco{
+display: flex;
+height: 300px;
+}
+.disco{
+margin-left: auto;
+margin-right: auto;
+max-width: 100%;
+max-height: 100%;
+}
+
+.envoltorio_canciones{
+height: 500px;
+}
+
+.titulo_canciones{
+font-family: 'Times New Roman', Times, serif;
+text-align: center;
+color: white;
+font-size: 25px;
+padding: 10px;
+}
+
+.texto_canciones{ 
+font-size: 18px;
+text-align: center;
+color: white;
+} 
+
+.galeria_contenedor{
+width: 80%;
+margin: 50px auto;
+
+display: grid;
+grid-template-columns: repeat(3, 33.33%);
+grid-template-rows: repeat(2,300px)
+}
+
+.galeria_contenedor .galeria_fotos{overflow: hidden;}
+
+.galeria_contenedor .galeria_fotos a{
+    width: 100%;
+    height: 100%;
+}
+
+.galeria_contenedor .galeria_fotos a> img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.5s;
+}
+
+.galeria_contenedor .galeria_fotos a> img:hover{
+transform: scale(1,1)rotate(15deg);
+}
