@@ -129,17 +129,17 @@ max-height: 100%;
 }
 
 .resena{
-margin-right: 30px;
+margin-right: 100px;
 margin-left: 30px;
 margin-top: 50px;
-justify-content: left;
+
 }
 
 .titulo_resena{
 font-family: 'Times New Roman', Times, serif;
 color: white;
 font-size: 27px;
-
+justify-content: left;
 }
 
 .hijo1{
