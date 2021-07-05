@@ -42,7 +42,7 @@ header {
   }
   
   .hide {
-    font-size: 22px;
+    font-size: 3vw;
     background:rgb(134, 3, 3);
     color: white;
     cursor: pointer;
