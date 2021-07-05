@@ -7,14 +7,14 @@ background-image: url("../images/fondo.png");}
 header {
     height: auto;
     width: 1332;
-    padding: 30px;
     color: rgb(3, 3, 3);
     text-align: center;
     background: rgb(252, 217, 187);
 }    
 .titulo_encabezado{
     font-family:'Lobster', cursive;
-    font-size: 9vw;
+    font-size: 8vw;
+    margin: 0px;
 
 }
  nav ul {
