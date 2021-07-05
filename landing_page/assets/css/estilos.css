@@ -42,7 +42,7 @@ header {
   }
   
   .hide {
-    
+    padding: 1vw;
     font-size: 22px;
     background:rgb(134, 3, 3);
     color: white;
