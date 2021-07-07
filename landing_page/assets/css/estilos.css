@@ -1,9 +1,12 @@
-
-
 body{
 background-image: url("../images/fondo.png");
 }
 
+.envoltorio_principal{
+height: auto;
+width: auto;
+}
+       
 header {
 height: auto;
 width: 1332;
@@ -11,75 +14,62 @@ color: rgb(3, 3, 3);
 text-align: center;
 background: rgb(252, 217, 187);
 }
-
+  
 .titulo_encabezado{
-    font-family:'Lobster', cursive;
-    font-size: 8vw;
-    margin: 0px;
+font-family:'Lobster', cursive;
+font-size: 8vw;
+margin: 0px;
 }
-
+  
 nav ul {
-    background:rgb(252, 217, 187);
-    text-align: center;
-    list-style: none;
-    overflow: hidden;
+background:rgb(252, 217, 187);
+text-align: center;
+list-style: none;
+overflow: hidden;
 }
- 
+   
 ul li {
-    display: inline-block;
-    padding: 20px;
-    transition: all ease-in-out 250ms;
+display: inline-block;
+padding: 20px;
+transition: all ease-in-out 250ms;
 }
-  
+    
 ul li:hover {
-background:rgb(134, 3, 3);
+background:rgb(109, 5, 5);
 }
-  
+    
 ul li a {
 color: rgb(2, 2, 2);
 text-decoration: none;
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-  
+    
 .hide {
 font-size: 3vw;
 background:rgb(134, 3, 3);
 color: white;
 cursor: pointer;
 display: none;
-  }
-  
+}
+    
 @media (max-width: 768px) {
 ul li {
 width: 100%;
 padding: 15px;
 text-align: left;
 }
-  
-    .hide {
-    padding-left: 20px;
-      display: block;
-      height: auto;
+    
+      .hide {
+      padding-left: 20px;
+        display: block;
+        height: auto;
+      }
+    
+      nav ul {
+      display: none;
     }
+}
   
-    nav ul {
-    display: none;
-  }
-  }
-
-p{
-font-family: serif;
-color: white;
-text-align: justify;
-display: block;
-}
-
-.envoltorio_principal{
-hyphens: auto;
--webkit-hyphens: auto;
--moz-hyphens: auto;
-}
-
 .miSlider img{
 width: 100%;
 max-height: 100vh;
@@ -88,7 +78,7 @@ object-fit: cover;
 vertical-align: top;
 transition: 2s;
 }
-
+  
 .barras{
 background: rgb(252, 217, 187);
 bottom: 0;
@@ -97,7 +87,7 @@ display: flex;
 justify-content: center;
 margin-bottom:15px;
 }
-
+  
 .barra{
 cursor: pointer;
 height: 5px;
@@ -106,104 +96,102 @@ margin: 0 10px;
 background: #473122;
 display: inline-block;
 margin-left: 3px;
-}
-
+  }
+  
 .active{
 background-color: #e74c3c;
 }
-
+  
 .fade{
 animation-name: fade;
 animation-duration: 1.5s;    
 }
-
+  
 @keyframes fade {
 from {opacity: .4;}
 to{opacity:1;}
 }
-
-.carole_imagen{
-top: 50px;
-max-width: 100%;
-max-height: 100%;
+  
+.envoltorio_skew{
+width: 100%;
+height: 350px;
+background-image: url(../images/img-2.png);
+background-attachment: fixed;
+background-position: center;
+background-size: cover;
+overflow: hidden;
+margin-top: 20px;
 }
 
+p{
+font-size: 20px;
+font-family: serif;
+color: white;
+text-align: justify;
+display: block;
+}
+  
 .resena{
 margin-right: 30px;
 margin-left: 30px;
 margin-top: 50px;
-
+  
 }
-
+  
 .titulo_resena{
 font-family: 'Times New Roman', Times, serif;
 color: white;
 font-size: 5vw;
 text-align: center;
 }
-
-.hijo1{
- height: auto;
+  
+.texto_resena{
+height: auto;
 display:block;
 overflow:auto;
 display: flex; 
 flex-flow: row wrap;
 justify-content: space-around;
 }
-
-.hijo1 div{
+  
+.texto_resena div{
 width: 323px;
 text-align: center;
 margin: 30px;
 margin-top: 0px;
 flex: auto;
-    
 }
-
-.envoltorio_segundo {
-  width: 100%;
-  height: 350px;
-  background-image: url(../images/img-2.png);
-  background-attachment: fixed;
-  background-position: center;
-  background-size: cover;
-  overflow: hidden;
-  margin-top: 20px;
-}
-
-
-.envoltorio_disco{
-display: flex;
-height: 700px;
-}
-
-.disco{
-margin-left: auto;
-margin-right: auto;
-
-max-height: 100%;
-}
-
+  
 .envoltorio_canciones{
 width: auto;
 height: auto;
 margin: auto;
 }
-
+  
 .titulo_canciones{
 font-family: 'Times New Roman', Times, serif;
 text-align: center;
 color: white;
-font-size: 25px;
-margin-top: 0px;
-
+font-size: 30px;
+margin-top: 0px;  
 }
-
+  
 .texto_canciones{ 
-font-size: 16px;
+font-size: 20px;
 text-align: center;
 color: white;
 } 
+  
+.envoltorio_video{
+display: flex;
+height: 700px;
+}
+      
+.video{
+margin-left: auto;
+margin-right: auto;
+max-height: 100%;
+}
 
 .galeria_contenedor{
 width: 100%;
@@ -213,22 +201,21 @@ grid-template-columns: repeat(3, 33.33%);
 grid-template-rows: repeat(2,300px);
 margin-top: 20px;
 }
-
-.galeria_contenedor .galeria_fotos{overflow: hidden;}
-
-.galeria_contenedor .galeria_fotos a{
-    width: 100%;
-    height: 100%;
   
+.galeria_contenedor .galeria_fotos{overflow: hidden;}
+  
+.galeria_contenedor .galeria_fotos a{
+width: 100%;
+height: 100%;
 }
-
+  
 .galeria_contenedor .galeria_fotos a> img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    transition: 0.5s;
+width: 100%;
+height: 100%;
+object-fit: cover;
+transition: 0.5s;
 }
-
+  
 .galeria_contenedor .galeria_fotos a> img:hover{
 transform: scale(1,1)rotate(15deg);
 }
