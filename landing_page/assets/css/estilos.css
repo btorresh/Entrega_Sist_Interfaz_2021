@@ -162,13 +162,13 @@ flex: auto;
 
 .envoltorio_segundo {
   width: 100%;
-  height: 650px;
+  height: 400px;
   background-image: url(../images/img-2.png);
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
   overflow: hidden;
-  margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 
@@ -180,12 +180,12 @@ height: 700px;
 .disco{
 margin-left: auto;
 margin-right: auto;
-max-width: 100%;
+
 max-height: 100%;
 }
 
 .envoltorio_canciones{
-width: 400px;
+width: auto;
 height: auto;
 margin: auto;
 }
@@ -195,6 +195,7 @@ font-family: 'Times New Roman', Times, serif;
 text-align: center;
 color: white;
 font-size: 25px;
+margin-top: 0px;
 
 }
 
@@ -209,7 +210,8 @@ width: 100%;
 margin: auto;
 display: grid;
 grid-template-columns: repeat(3, 33.33%);
-grid-template-rows: repeat(2,300px)
+grid-template-rows: repeat(2,300px);
+margin-top: 20px;
 }
 
 .galeria_contenedor .galeria_fotos{overflow: hidden;}
@@ -217,6 +219,7 @@ grid-template-rows: repeat(2,300px)
 .galeria_contenedor .galeria_fotos a{
     width: 100%;
     height: 100%;
+  
 }
 
 .galeria_contenedor .galeria_fotos a> img{
