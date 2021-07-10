@@ -176,7 +176,7 @@ margin-top: 0px;
 }
   
 .texto_canciones{ 
-font-size: 3vh;
+font-size: 18px;
 text-align: center;
 color: white;
 } 
@@ -198,7 +198,7 @@ margin: auto;
 display: grid;
 grid-template-columns: repeat(3, 33.33%);
 grid-template-rows: repeat(2,300px);
-margin-top: 1%;
+margin-top: 2%;
 }
   
 .galeria_contenedor .galeria_fotos{overflow: hidden;}
